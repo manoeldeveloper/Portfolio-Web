@@ -1,0 +1,20 @@
+.infos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    grid-area: info;
+    color: var(--text-secundary);
+    gap: 24px;
+    max-width: 500px;
+
+    .linguagem {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: flex-start;
+        width: 100%;
+
+    }
+
+}
